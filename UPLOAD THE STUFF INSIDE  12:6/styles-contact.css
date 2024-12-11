@@ -1,0 +1,152 @@
+/*This is my 201 Contact Web Page Project using Eric Meyer's reset at the top of my page -- your CSS starts on line 56 */
+
+
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+/* ---------- This is the beginning of my 201 Contact Web Page Project ------------ */
+
+html, body {
+  height: 100%;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  background: #404040; 
+  background-image: url(images/palm-tree.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  text-align: center;
+}
+
+.center {
+    width: 50% ; /*---- this is for responsiveness -----*/ 
+	min-width: 300px; /*---- this is for responsiveness -----*/ 
+	padding: 2%;
+    margin: 100px auto;
+ 	background: rgba(162, 175, 177, 0.5); /*this uses opacity of 75% for the background color*/
+	text-align: center;
+	border-radius: 50px;
+}
+
+#logo {
+	width: 40%;
+	margin: top 50px; ;
+    margin-bottom: 10px;
+	text-align: center;
+}
+
+h1 {
+	/* <link rel="stylesheet" href="https://use.typekit.net/uzj6oas.css"> */
+	font-family: chicle, serif;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 7em;
+    margin: 0px auto 0px auto;
+    color: #ffffff;
+}
+
+h2 {
+	 /* <link rel="stylesheet" href="https://use.typekit.net/buj8wxl.css"> */
+	 font-family: mukta-vaani, sans-serif;
+	 font-weight: 400;
+	font-size: 4em;
+    line-height: 1.2;
+    color: #ffffff;
+    padding: 0px 0px;
+    margin: 0px auto 0px auto;
+}
+   
+p {
+	/* <link rel="stylesheet" href="https://use.typekit.net/buj8wxl.css"> */
+	font-family: mukta-vaani, sans-serif;
+	font-weight: 400;
+	font-size: 3em;
+    line-height: 1;
+    color: #ffffff;
+}
+nav{
+	font-family: "playwrite-cc-de-grund", sans-serif;
+	font-weight: 400;
+	font-size: 2em;
+	width: 400px;
+	margin: 0 auto; 
+	text-align: center; 
+	margin-top: 1em; 
+	}
+   
+
+nav li{
+	display: inline; 
+	}
+
+nav a{
+	display: inline-block;
+	padding: 5px; 
+	}
+
+	a{
+		color: #080707;
+		text-decoration: none; 
+		font-weight: bold; 
+		}
+
+a:hover{
+	color: rgb(7, 149, 244); 
+	background: rgb(245, 243, 244, 0.5); 
+	}
+
+
+    
+    
+
